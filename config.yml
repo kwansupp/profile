@@ -1,3 +1,31 @@
 baseURL: http://example.org/
 languageCode: en-us
-title: My New Hugo Site
+title: kwansupp
+theme: PaperMod
+
+params:
+    defaultTheme: auto
+    homeInfoParams:
+        Title: Hi! I'm Kwan 👋
+        Roles: 
+          - full stack developer
+          - tech educator
+          - data strategist
+        # Content: Can be Info, links, about...
+    
+    socialIcons: # optional
+        - name: linkedin
+          url: "https://www.linkedin.com/in/ksuppaiboonsuk/"
+        - name: email
+          url: "mailto:ksuppaiboonsuk@gmail.com"
+
+menu:
+    main:
+        - identifier: about
+          name: about
+          url: /about/
+          weight: 10
+        - identifier: contact
+          name: contact
+          url: /contact/
+          weight: 20
